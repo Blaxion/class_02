@@ -9,6 +9,7 @@ let maison = new Lieux("maison");
 let epicerie = new Lieux("epicerie");
 let cuisine = new Lieux("cuisine");
 
+
 class Ingredients {
     constructor(nom, etat, prix) {
         this.nom = nom;
@@ -22,6 +23,7 @@ let oeuf = new Ingredients('oeuf','entier', 4);
 let epice = new Ingredients('epice','moulu', 3.25);
 let paprika = new Ingredients('paprika','moulu', 1.5);
 let fromage = new Ingredients('fromage','coupé', 1.6);
+
 
 class Personne {
     constructor(nom,lieu,argent){
@@ -37,5 +39,5 @@ class Personne {
     couper(x,y){  
     };
 }
-
 let personne = new Personne("Maxime","Néant",100);
+
